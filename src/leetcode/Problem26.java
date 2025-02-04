@@ -14,7 +14,7 @@ public class Problem26 {
         int index = 0;
         int memory = nums[0];
         for (int i = 1; i < nums.length; i++) {
-            if (nums[i] !=memory) {
+            if (nums[i] != memory) {
                 nums[index++] = memory;
                 memory = nums[i];
             }
